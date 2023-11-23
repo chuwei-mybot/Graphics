@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\4-1_spinning\SpinSim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\4-1_spinning\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\BaseObject.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Gui.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\RigidObject.cpp">
+      <Filter>Library Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\4-1_spinning\SpinSim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\AABB.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Array2T.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Arrow.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\BaseObject.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Grid2.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Gui.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\MACGrid2.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\ReferencePlane.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\RigidObject.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Simulation.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\include\Simulator.h">
+      <Filter>Library Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\4-1_spinning\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E1809301-110F-388F-8953-2F735D4B799E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{B9DE0D9E-D120-3EA9-9568-2276660A41D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{876E45C3-ADB5-3513-B589-5FA22BF59007}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

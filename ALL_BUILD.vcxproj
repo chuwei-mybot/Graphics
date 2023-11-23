@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{213D2D62-5678-38B5-A999-594BDA01F3AB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Graphics/code/SimulationFramework-master/SimuFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/Graphics/code/SimulationFramework-master/SimuFramework -BE:/Graphics/code/SimulationFramework-master/SimuFramework/build --check-stamp-file E:/Graphics/code/SimulationFramework-master/SimuFramework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Cmake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\FindOpenGL.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.27\Modules\FindThreads.cmake;E:\Cmake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\cmake\FindLIBIGL.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\CXXFeatures.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.CMakeLists.cmake.in;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglDownloadExternal.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglWindows.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Graphics/code/SimulationFramework-master/SimuFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/Graphics/code/SimulationFramework-master/SimuFramework -BE:/Graphics/code/SimulationFramework-master/SimuFramework/build --check-stamp-file E:/Graphics/code/SimulationFramework-master/SimuFramework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Cmake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\FindOpenGL.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.27\Modules\FindThreads.cmake;E:\Cmake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\cmake\FindLIBIGL.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\CXXFeatures.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.CMakeLists.cmake.in;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglDownloadExternal.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglWindows.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Graphics/code/SimulationFramework-master/SimuFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/Graphics/code/SimulationFramework-master/SimuFramework -BE:/Graphics/code/SimulationFramework-master/SimuFramework/build --check-stamp-file E:/Graphics/code/SimulationFramework-master/SimuFramework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Cmake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\FindOpenGL.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.27\Modules\FindThreads.cmake;E:\Cmake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\cmake\FindLIBIGL.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\CXXFeatures.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.CMakeLists.cmake.in;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglDownloadExternal.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglWindows.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Graphics/code/SimulationFramework-master/SimuFramework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/Graphics/code/SimulationFramework-master/SimuFramework -BE:/Graphics/code/SimulationFramework-master/SimuFramework/build --check-stamp-file E:/Graphics/code/SimulationFramework-master/SimuFramework/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Cmake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeParseArguments.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\Cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;E:\Cmake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\FindOpenGL.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.27\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.27\Modules\FindThreads.cmake;E:\Cmake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\Cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\3.27.7\CMakeSystem.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\cmake\FindLIBIGL.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\CXXFeatures.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.CMakeLists.cmake.in;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\DownloadProject.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglDownloadExternal.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\LibiglWindows.cmake;E:\Graphics\code\SimulationFramework-master\SimuFramework\libigl\cmake\libigl.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Graphics\code\SimulationFramework-master\SimuFramework\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\ZERO_CHECK.vcxproj">
+      <Project>{C8F04DC9-9C1C-314E-8D4B-C1C47E5B5E45}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\0_dummy\0_dummy.vcxproj">
+      <Project>{8101FB08-C0A3-3A88-B1C8-90984364773F}</Project>
+      <Name>0_dummy</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\1-1_cannonball\1-1_cannonball.vcxproj">
+      <Project>{58E9BAD0-5923-3090-909E-F0924FB6BEC2}</Project>
+      <Name>1-1_cannonball</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\1-2_spring\1-2_spring.vcxproj">
+      <Project>{A13A58DB-082E-37C5-9D11-04B4243D3975}</Project>
+      <Name>1-2_spring</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\1-0_earth\1_earth.vcxproj">
+      <Project>{F913537A-BBAA-374B-A7BC-8E5539A13163}</Project>
+      <Name>1_earth</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\2-2_pendulum\2-2_pendulum.vcxproj">
+      <Project>{69186299-C4AA-32BA-8E00-1B52320CE738}</Project>
+      <Name>2-2_pendulum</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\2-1_bead\2-bead.vcxproj">
+      <Project>{0BBD9B0B-16FF-3C66-BFD6-32B240E606C2}</Project>
+      <Name>2-bead</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\3_cloth\3_cloth.vcxproj">
+      <Project>{F902B8F8-74E6-35A7-A23C-6FCF990E3278}</Project>
+      <Name>3_cloth</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\4-1_spinning\4-1_spinning.vcxproj">
+      <Project>{E3A46CDF-2027-32D4-A72F-8CAF4B68799B}</Project>
+      <Name>4-1_spinning</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\4-2_collision\4-2_collision.vcxproj">
+      <Project>{51FC6A05-2780-3225-8FEF-B1CBF082FC99}</Project>
+      <Name>4-2_collision</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\5_fluid\5_fluid.vcxproj">
+      <Project>{0B37AB00-C259-3774-BE53-505B846EAD31}</Project>
+      <Name>5_fluid</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\glad\glad.vcxproj">
+      <Project>{959D96FB-74E0-35F1-A0A2-74F66E4B75A6}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\glfw\src\glfw.vcxproj">
+      <Project>{99EEC8F8-4C8B-32E9-B31F-3598C4547370}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Graphics\code\SimulationFramework-master\SimuFramework\build\imgui\imgui.vcxproj">
+      <Project>{51525DDE-9F15-301E-96A7-319492049E88}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
